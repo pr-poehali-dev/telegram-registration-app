@@ -25,8 +25,14 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#0088CC',
+					foreground: '#FFFFFF'
+				},
+				telegram: {
+					blue: '#0088CC',
+					lightblue: '#40A7E3', 
+					gray: '#F5F5F5',
+					darkgray: '#8E9196'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
